@@ -1,6 +1,7 @@
 /* Media Queries */
 
 /* mobile_small 375px */
+@media screen and (width: 320px){
     section{
         padding: 0px 2px;
     }
