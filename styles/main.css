@@ -1,0 +1,229 @@
+/*general styling starts*/
+*{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(197, 197, 197);
+    font-family: 'Century Gothic','Courier New', 'Lucida Console', 'Open Sans';
+    transition: 0.4s;
+}
+
+html{
+    background: linear-gradient(-150deg, #000000, #000000);
+}
+
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+section{
+    padding: 0px 50px;
+}
+/*general styling ends*/
+
+/*list styling starts*/
+ul{
+    cursor: pointer;
+}
+
+ul#menu{
+    line-height: 27px;
+}
+
+ul li ul{
+     display: block;
+     background-color: rgb(22, 22, 22);
+     z-index: 10000;
+     border-radius: 0px 0px 10px 10px;
+     height: 0px;
+     overflow: hidden;
+ }
+
+ul li:hover ul{
+    display: block;
+    padding: 6px 4px;
+    height: 100px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.special{
+    color: rgb(56, 128, 56);
+    font-weight: 700;
+}
+/*list styling ends*/
+
+/*top-panel styling starts*/
+div.fixed-display{
+    width: 100%;
+}
+
+section.top-panel{
+    height: 110px;
+    background-color: rgb(26, 26, 26);
+    position: relative;
+}
+
+section.top-panel div{
+    background-color:#1d1c1c;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    position: absolute;
+}
+
+div#app-logo{
+    width: 217px;
+    bottom: 0px;
+    height: 39px;
+    line-height: 39px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div#howItWorks-btn{
+    width: 161.4px;
+    bottom: 0;
+    right: 52px;
+    font-size: 11px;
+    height: 27px;
+}
+
+div#app-logo, div#howItWorks-btn{
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0, 0.3);
+}
+/*top-panel styling ends*/
+
+/*middle-panel styling starts*/
+section.middle-panel{
+    overflow: hidden;
+    height: auto;
+}
+
+div.engine-environment{
+    border: 1px dashed black;
+    height: auto;
+    height: 450px;
+}
+
+form{
+    display: block;
+}
+
+div.output-copy-btn{
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    width: 80%;
+    border: 0px solid purple;
+    border-radius: 28px;
+}
+
+input[type="text"]{
+    display: inline-block;
+    width: 87%;
+    border: none;
+    text-align: center;
+    height: 55px;
+    border-radius: 28px 0px 0px 28px;
+    margin: 0;
+    padding: 0px 20px 0px 35px;
+    font-size: 18px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(56, 128, 56);
+    outline: none;
+}
+
+button#copy{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    width: 7%;
+    background-color: rgb(20, 20, 20);
+    color: #958F8F;
+    text-shadow:  0px 0px 13px rgb(10, 10, 10);
+    border: none;
+    height: 55px;
+    border-radius: 0px 28px 28px 0px;
+    outline: none;
+    font-weight: 1000;
+    font-size: 36px;
+    line-height: 55px;
+}
+
+button#copy:hover{
+    background-color: rgb(25, 25, 25);
+    color: rgb(56, 128, 56);
+}
+
+div.copy-btn-message-display{
+    margin: auto;
+    margin-top: 3px;
+    width: 90%;
+    text-align: center;
+}
+
+button#gen-btn{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    height: 55px;
+    width: 214.6px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 20px;    
+    font-weight: 1000;
+    background-color: rgb(41, 41, 41);
+}
+
+button#gen-btn:hover{
+    background-color: rgb(27, 27, 27);
+    color: rgb(56, 128, 56);
+    text-shadow:  0px 0px 13px rgb(10, 10, 10);
+}
+
+button{
+    cursor: pointer;
+}
+/*middle-panel styling ends*/
+
+/*bottom-panel styling starts*/
+div#author-namespace{
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+div#contacts{
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+}
+
+ul#cont-list{
+    display: inline-block;
+}
+
+ul#cont-list li{
+    display: inline;
+    margin-right: 15px;
+    font-size: 10px;
+    text-transform: lowercase;
+}
+
+#change_log{
+    color: rgb(56, 128, 56);
+    font-weight: 200;
+    font-size: 14px;
+    background-color: rgba(34, 34, 34, 0.3);
+}
+
+#change_log:hover{
+    color: rgb(0, 148, 0);
+    
+}
+/*bottom-panel styling ends*/

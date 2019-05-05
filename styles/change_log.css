@@ -1,0 +1,53 @@
+/*general styling starts*/
+div#ch-container{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    outline: 0px solid red;
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+    padding: 20px 0px;
+    margin-bottom: 150px;
+}
+
+h2#heading, table{
+    padding: 0px 50px 0px 50px;
+}
+/*general styling ends*/
+
+/*heading starts*/
+h2#heading{
+    border-bottom: 7px solid #388038;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 37px;
+    color: #388038;
+}
+/*heading ends*/
+
+/*body starts*/
+table, th, tr{
+    border: 0px solid grey;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    width: 100%;
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+th, td{
+    height: 60px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.1)
+}
+/*body ends*/
