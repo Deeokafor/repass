@@ -105,7 +105,7 @@ section.middle-panel{
 
 div.engine-environment{
     border: 1px dashed black;
-    height: auto;
+    /*height: auto;*/
     height: 450px;
 }
 
@@ -186,6 +186,7 @@ button#gen-btn:hover{
     text-shadow:  0px 0px 13px rgb(10, 10, 10);
 }
 
+
 button{
     cursor: pointer;
 }
@@ -215,7 +216,7 @@ ul#cont-list li{
     text-transform: lowercase;
 }
 
-#change_log{
+#changelog{
     color: rgb(56, 128, 56);
     font-weight: 200;
     font-size: 14px;

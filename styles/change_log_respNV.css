@@ -1,0 +1,47 @@
+@media screen and (max-width: 320px), screen and (max-width: 375px), screen and (max-width: 320px), screen and (max-width: 425px), screen and (max-width: 768px) {
+    body{
+        height: auto !important;
+    }
+
+    div#ch-container {
+        width: 100%;
+        position: static;
+        border-radius: 0px;
+        height: auto;
+    }
+
+    h2#heading {
+        border-bottom: 4px solid #388038;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        color: #388038;
+    }
+
+    table, tr, th, td{
+        font-size: 11px;
+        border: 1px solid grey;
+        border-color: transparent;
+    }
+
+    td{
+        font-size: 10px;
+    }
+
+    th{
+        text-transform: capitalize;
+    }
+
+    #author-namespace{
+        font-size: 8px !important;
+    }
+
+    [class="bottom-panel"]{
+        background-color: rgb(128, 128, 128, 0.1);
+        padding: 20px;
+    }
+
+    tbody tr:nth-child(odd){
+        background-color: rgba(0, 0, 0, 0.3)
+    }
+}

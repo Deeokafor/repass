@@ -1,13 +1,95 @@
 /* Media Queries */
 
 /* mobile_small 375px */
-@media screen and (width: 320px){
-    section{
-        padding: 0px 2px;
+@media screen and (max-width: 320px), screen and (max-width: 375px), screen and (max-width: 320px), screen and (max-width: 425px), screen and (max-width: 768px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    section {
+        padding: 0px;
+    }
+
+    section.top-panel div {
+        width: 100% !important;
+        position: static;
+        border-radius: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#app-logo, div#howItWorks-btn {
+        height: 50%;
+    }
+
+    div#app-logo p, #menu > li {
+        height: 100%;
+        line-height: 50px;
+    }
+
+    #menu > li:hover {
+        outline: 1px solid green;
+    }
+
+    .engine-environment{
+        height: auto !important;
+    }
+
+    div.output-copy-btn{
+      border-radius: 0px;
+    }
+
+    input[type="text"]{
+        width: 75%;
+        border-radius: 10px 0px 0px 10px;
+        font-size: 11px; 
+        padding: 0px 10px 0px 17px !important;
+        text-align: center;
+    }
+
+    [type='placeholder'], placeholder {
+        color: green !important;
+    }
+    
+    button#copy{
+        border-radius: 0px 10px 10px 0px;
+        font-size: 20px;
+        width: 15%;
+    }
+
+    div.copy-btn-message-display{
+        font-size: 14px !important;
+    }
+
+    button#gen-btn{
+        height: 35px;
+        width: 150px;
+        border-radius: 3px;
+        font-size: 13px;
+        text-transform: lowercase !important;        
+        font-family: monospace;
+    }
+
+    div#author-namespace{
+        visibility: hidden;
+    }
+
+    div#contacts{
+        width: 100%;
+        margin: auto !important;
+        text-align: center;
+        padding: 5px 0px;
+        background-color: rgb(128, 128, 128, 0.1);
+
+    }
+
+    ul#cont-list li, #change_log{
+        font-size: 8.55px;
+    }
+
+    ul#cont-list li a, #change_log{
+        color: rgb(128, 128, 128, 0.5);
     }
 }
 
-/* tablet 768px */
-@media only screen and (min-width: 768px){
-    
-}
