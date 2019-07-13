@@ -14,6 +14,7 @@
         border-bottom: 4px solid #388038;
         padding-top: 15px;
         padding-bottom: 10px;
+        padding-left: 20px !important;
         font-size: 25px;
         color: #388038;
     }
@@ -25,7 +26,7 @@
     }
 
     td{
-        font-size: 10px;
+        font-size: 9px;
     }
 
     th{
